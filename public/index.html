@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fileshare App</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>File Share App</h1>
+        <p>Use the same Wi-Fi network to send images and videos between your laptop and Android phone.</p>
+      </header>
+
+      <section class="panel">
+        <h2>Upload a file</h2>
+        <form id="uploadForm" enctype="multipart/form-data">
+          <input id="fileInput" type="file" accept="image/*,video/*" required />
+          <button type="submit">Send file</button>
+        </form>
+        <p id="statusMessage" class="status">Ready to share.</p>
+      </section>
+
+      <section class="panel">
+        <h2>Open from your phone</h2>
+        <p class="network-note">On your Android mobile, open the same address shown below in its browser.</p>
+        <p id="addressText" class="address"></p>
+        <div id="fileList" class="file-list"></div>
+      </section>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
