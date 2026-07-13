@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # File Share App
 
 A lightweight local-network file sharing app for Windows laptop and Android mobile.
@@ -25,3 +26,7 @@ On Android, use the same Wi-Fi network and open the same address in Chrome.
 ## Notes
 - Files are stored in the `uploads` folder.
 - Only image and video files are accepted.
+=======
+# fileshare-app
+A simple file sharing web app for uploading and sharing images and videos.
+>>>>>>> 4b9f1f0c8870a6add86741f3545622c0941ed049
